@@ -3,6 +3,8 @@
 namespace App\Http\Livewire\Front;
 
 use Livewire\Component;
+use Illuminate\Support\Facades\Mail;
+use App\Mail\ContactMail;
 
 class Contact extends Component
 {
@@ -21,13 +23,7 @@ class Contact extends Component
     public function submit(){
         $this->validate();
         $contactDetail = ['name'=>$this->name,'email'=>$this->email,'message'=>$this->message];
-        $subject = 'Contact Us Email From AlphaaSigma | User Name: '.$this->name;
-        // Always set content-type when sending HTML email
-        $headers = "MIME-Version: 1.0" . "\r\n";
-        $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
-        $headers .= "From: info@alphaasigma.com";
-        $message = view('email.contact_us',['item'=>$contactDetail])->render();
-        // mail('shahrukh.aptech16@gmail.com',$subject,$message,$headers);
+        Mail::to('jdistrollc@gmail.com')->send(new ContactMail($contactDetail));
         session()->flash('message', 'Contact Request Sent Successfully.');
         $this->resetField();
         //jdistrollc@gmail.com
