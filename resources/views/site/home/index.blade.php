@@ -63,7 +63,7 @@
                             <ul class="nav navbar-nav navbar-right">
                                 <li><a href="#myCarousel" class="inner-link">Home</a> </li>
                                 <li><a href="#products" class="inner-link">Products</a> </li>
-                                <li><a href="#new-falvour" class="inner-link">New Flavour</a> </li>
+                                <li><a href="#new-falvour" class="inner-link">New Flavors</a> </li>
                                 {{-- <li><a href="#about" class="inner-link">About</a> </li> --}}
                                 <li><a href="#verifyproduct" class="inner-link">Verify Product</a></li>
                                 <li><a href="#contact-us" class="inner-link">Contact</a></li>
