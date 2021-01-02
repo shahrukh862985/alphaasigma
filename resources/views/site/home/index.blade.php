@@ -126,7 +126,7 @@
                                 <!-- features item -->
                                 <div class="col-md-4 col-sm-6 text-center margin-four no-margin-top sm-margin-bottom-ten p-2">
                                     <div class="border product-card">
-                                        <img src="{{asset('site-asset/img/product-14.jpg')}}" class="img-fluid" alt="" srcset="">
+                                        <img src="{{asset('site-asset/img/product-1.jpg')}}" class="img-fluid" alt="" srcset="">
                                         <h2>Caribbean Mix</h2>
                                     </div>
                                 </div>
@@ -234,6 +234,34 @@
                                     <div class="border product-card">
                                     <img src="{{asset('site-asset/img/product-12.jpg')}}" class="img-fluid" alt="" srcset="">
                                     <h2>tropical blue</h2>
+                                    </div>
+                                </div>
+                                <!-- end features item -->
+                            </div>
+                        </div>
+                        <div class="item"> 
+                            <div class="row">
+                                <!-- features item -->
+                                <div class="col-md-4 col-sm-6 text-center margin-four no-margin-top sm-margin-bottom-ten">
+                                    <div class="border product-card">
+                                    <img src="{{asset('site-asset/img/product-13.jpg')}}" class="img-fluid" alt="" srcset="">
+                                    <h2>cola ice</h2>
+                                    </div>
+                                </div>
+                                <!-- end features item -->
+                                <!-- features item -->
+                                <div class="col-md-4 col-sm-6 text-center margin-four no-margin-top sm-margin-bottom-ten"> 
+                                    <div class="border product-card">
+                                    <img src="{{asset('site-asset/img/product-14.jpg')}}" class="img-fluid" alt="" srcset="">
+                                    <h2>cool ice</h2>
+                                    </div>
+                                </div>
+                                <!-- end features item -->
+                                <!-- features item -->
+                                <div class="col-md-4 col-sm-6 text-center margin-four no-margin-top sm-margin-bottom-ten"> 
+                                    <div class="border product-card">
+                                    <img src="{{asset('site-asset/img/product-15.jpg')}}" class="img-fluid" alt="" srcset="">
+                                    <h2>blaze</h2>
                                     </div>
                                 </div>
                                 <!-- end features item -->
