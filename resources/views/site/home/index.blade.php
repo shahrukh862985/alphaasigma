@@ -244,8 +244,8 @@
                                 <!-- features item -->
                                 <div class="col-md-4 col-sm-6 text-center margin-four no-margin-top sm-margin-bottom-ten">
                                     <div class="border product-card">
-                                    <img src="{{asset('site-asset/img/product-13.jpg')}}" class="img-fluid" alt="" srcset="">
-                                    <h2>cola ice</h2>
+                                    <img src="{{asset('site-asset/img/product-13.jpeg')}}" class="img-fluid" alt="" srcset="">
+                                    <h2>black ice</h2>
                                     </div>
                                 </div>
                                 <!-- end features item -->
