@@ -28,5 +28,6 @@ Route::prefix('admin')->group(function () {
         Route::get('/dashboard','Admin\HomeController@dashboard')->name('admin.dashboard');
         Route::post('/logout','Admin\AuthController@logout')->name('admin.logout');
         Route::post('/passwordchange','Admin\AuthController@changePassword')->name('admin.change.password');
+        Route::resource('products','Admin\ProductsController');
     });
 });
